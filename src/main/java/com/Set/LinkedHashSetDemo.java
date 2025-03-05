@@ -14,5 +14,8 @@ public class LinkedHashSetDemo {
         Iterator<String> iterator = linkedHashSet.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
+
+        linkedHashSet.remove("Java");
+        System.out.println(linkedHashSet);
     }
 }
